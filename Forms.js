@@ -1,8 +1,6 @@
 const h3 = document.createElement("h3");
 document.body.appendChild(h3);
-const h2 = document.querySelector("h2");
 const todoField = document.querySelector("#todoField");
-const sectionTag = document.querySelector("h2");
 var stress = [];
 
 
