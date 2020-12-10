@@ -17,5 +17,5 @@ document.querySelector('#daForm').addEventListener("submit", function(event) {
 //    console.log(stressMap)
     
     var stressJoined = stressMap.join(``)
-    var h3.innerHTML = stressJoined
+    h3.innerHTML = stressJoined
 });
