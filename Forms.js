@@ -10,9 +10,9 @@ document.querySelector('#daForm').addEventListener("submit", function(event) {
     textEntry = todoField.value;
     stress.push(textEntry)
     const stressMap = stress.map(todo => `
-        <li>
+        
           ${todo}
-        </li>
+        
         `);
 //    console.log(stressMap)
     
